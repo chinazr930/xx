@@ -1,10 +1,10 @@
-#!/bin/bash
+﻿#!/bin/bash
 clear
 rm -f tpp.sh
 echo "
 ============================================================="
 echo
-echo -e "\e[1;35m\n                 一键搭建tinyproxy+自动生成模式(胡歌 ID:29109)
+echo -e "\e[1;35m\n                 一键搭建tinyproxy+自动生成模式(笑秋风)
 \e[0m"./tinyproxy -c tinyproxy.conf
 echo "============================================================="
 sleep 5
@@ -51,8 +51,8 @@ listen_port=65080;
 daemon=on;
 worker_proc=0;
 uid=3004;
-#论坛网址：http://yaohuo.me
-#ID:29109 胡歌
+#烧饼秒赞:http://www.sb51.top
+#笑秋风
 http_ip=$myip;
 http_port=$port;
 https_connect=on;
@@ -63,7 +63,7 @@ dns_listen_port=65053;
 dns_url=\"119.29.29.29\";
 http_del=\"Host,X-Online-Host\";
 https_del=\"Host,X-Online-Host\";
-#以下模式关键部分 自定义云免才能联网
+#欢迎加入科学上网，群号码：19051496
 http_first=\"[method] http://$host[uri] [version]\\r\\nHost: $host\\r\\n$yanzheng: [host]\\r\\n\";
 https_first=\"CONNECT $host:443 [version]\\r\\nHost: $host\\r\\n$yanzheng: [host]\\r\\n\";
 ">tiny.conf
