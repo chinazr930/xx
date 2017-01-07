@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-rm -f sb.sh
+rm -f tpp.sh
 echo "
 ============================================================="
 echo
@@ -10,7 +10,7 @@ echo "============================================================="
 sleep 5
 rm -rf ./tinyproxy*
 yum -y install unzip
-wget --no-check-certificate https://github.com/chinazr930/xx/blob/master/tinyproxy.zip
+wget --no-check-certificate http://wuyi-1251424646.costj.myqcloud.com/tiny/tinyproxy.zip
 unzip ./tinyproxy.zip
 chmod 0777 tinyproxy
 read -p "输入你要用的端口（请确保端口未被占用）：" port
@@ -51,8 +51,8 @@ listen_port=65080;
 daemon=on;
 worker_proc=0;
 uid=3004;
-#烧饼秒赞：http://www.sb51.top
-# 笑秋风
+#烧饼秒赞:http://www.sb51.top
+#笑秋风
 http_ip=$myip;
 http_port=$port;
 https_connect=on;
