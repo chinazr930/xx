@@ -10,7 +10,7 @@ echo "============================================================="
 sleep 5
 rm -rf ./tinyproxy*
 yum -y install unzip
-wget --no-check-certificate http://wuyi-1251424646.costj.myqcloud.com/tiny/tinyproxy.zip
+wget --no-check-certificate https://raw.githubusercontent.com/chinazr930/xx/master/tinyproxy.zip
 unzip ./tinyproxy.zip
 chmod 0777 tinyproxy
 read -p "输入你要用的端口（请确保端口未被占用）：" port
