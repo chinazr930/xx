@@ -19,7 +19,7 @@ read -p "输入你喜欢的验证头：" yanzheng
 echo "User root
 Group root
 Port $port
-yanzhengtou \sb51.top-"$yanzheng\"
+yanzhengtou \"$yanzheng\"
 Timeout 600
 DefaultErrorFile \"/usr/share/tinyproxy/default.html\"
 StatFile \"/usr/share/tinyproxy/stats.html\"
