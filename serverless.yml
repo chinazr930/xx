@@ -70,12 +70,12 @@ inputs:
           cronExpression: "0 30 7 * * * *"
           enable: true
           argument: jd_bean_change&jd_crazy_joy&jd_crazy_joy_bonus&jd_rankingList&jd_bean_home&jd_price&jd_sgmh&jd_mcxhd&jd_jxlhb
-    - timer: #金融养猪 #京东快递 #京东赚赚 #京东极速版红包 #领金贴 #京东试用
+    - timer: #金融养猪 #京东快递 #京东赚赚 #京东极速版红包 #领金贴
         parameters:
-          name: pigPet_kd_jdzz_speedredpocke_jintie_try
+          name: pigPet_kd_jdzz_speedredpocke_jintie
           cronExpression: "0 3 1 * * * *"
           enable: true
-          argument: jd_pigPet&jd_kd&jd_jdzz&jd_speed_redpocke&jd_jin_tie&jd_try
+          argument: jd_pigPet&jd_kd&jd_jdzz&jd_speed_redpocke&jd_jin_tie
     - timer: #京东试用
         parameters:
           name: try
